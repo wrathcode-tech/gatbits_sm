@@ -126,6 +126,14 @@ header .row {
     font-size: 18px;
     font-weight: 700;
 }
+.btn_work p {
+    padding: 18px 44px;
+    background-color: #FF9B0F;
+    border-radius: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+}
 
 .btn_work a:hover {
     background-color: #d88c22;
