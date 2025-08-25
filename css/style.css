@@ -605,6 +605,7 @@ section.ultimate_entertaintment_slide {
 footer {
     width: 100%;
     position: relative;
+    overflow: hidden;
     padding: 50px 0px 30px;
     text-align: center;
     color: #171717;
@@ -623,7 +624,7 @@ footer .d-flex p {
 }
 
 footer .d-flex.align-items-center {
-    align-items: center !important;
+    align-items: start !important;
     gap: 80px;
 }
 
@@ -737,13 +738,35 @@ section.explore_categories.socialmediabg .top_heading_cnt {
 }
 
 .footerlogo3 img.lightlogo2 {
-    width: 300px;
+    width: 240px;
     margin-bottom: 10px;
+    border: 1px solid #c7982e75;
+    border-radius: 70px;
 }
 
 .address_footer.lastchildfooter {
-    width: 500px;
+    width: 457px;
+    text-align: left;
     max-width: 100%;
+}
+
+.footerlogo3 {
+    text-align: left;
+}
+
+.address_footer.lastchildfooter h5 {
+    position: relative;
+    left: 34px;
+    color: #020202;
+}
+
+.hand_shake_cntr {
+    position: relative;
+    left: 92px;
+}
+
+.midfooter {
+    margin-top: 12px;
 }
 
 @media screen and (max-width:1500px) {
@@ -1088,7 +1111,24 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     }
 
     .logo_f {
-        max-width: 200px;
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    .address_footer.lastchildfooter h5 {
+        left: 0px;
+    }
+
+    .hand_shake_cntr {
+        left: 0px;
+    }
+
+    .address_footer.lastchildfooter {
+        text-align: center;
+    }
+
+    .footerlogo3 {
+        text-align: center;
     }
 
     footer .d-flex p {
