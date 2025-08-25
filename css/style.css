@@ -56,6 +56,19 @@ header .logo {
     max-width: 284px;
 }
 
+header .logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+header .logo img.eaglelogo {
+    width: 30px;
+}
+
+
 .navigation nav ul li a {
     font-size: 15px;
     color: #DADADA;
@@ -126,7 +139,8 @@ header .row {
     font-size: 18px;
     font-weight: 700;
 }
-.btn_work p {
+
+.hero_banner_ .btn_work p {
     padding: 18px 44px;
     background-color: #FF9B0F;
     border-radius: 50px;
@@ -598,15 +612,19 @@ footer {
 }
 
 footer .d-flex p {
-    width: 50%;
-    font-size: 20px;
+    width: 100%;
+    font-size: 18px;
     text-align: left;
     margin: 0px;
     display: inline-block;
-    /* background-color: #0a0a0a; */
-    padding: 0px 20px;
+    padding: 0px;
     position: relative;
     z-index: 666;
+}
+
+footer .d-flex.align-items-center {
+    align-items: center !important;
+    gap: 80px;
 }
 
 .copyright {
@@ -708,6 +726,26 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     padding-left: 20px;
 }
 
+
+.hand_shake_cntr {
+    position: relative;
+}
+
+.address_footer .lightlogo {
+    width: 30px !important;
+    margin-bottom: 15px;
+}
+
+.footerlogo3 img.lightlogo2 {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.address_footer.lastchildfooter {
+    width: 500px;
+    max-width: 100%;
+}
+
 @media screen and (max-width:1500px) {
 
     h1 {
@@ -770,7 +808,12 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     }
 
     p {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .hero_banner_ .btn_work p {
+        padding: 10px 36px;
+        font-size: 15px;
     }
 
     .about_cnt_bl ul li h3 {
@@ -845,6 +888,18 @@ section.explore_categories.socialmediabg .top_heading_cnt {
 
     .ecosystem_section ul li {
         width: 30%;
+    }
+
+    section.aboutus_section .row .col-sm-6 {
+        width: 100%;
+    }
+
+    .about_cnt_bl ul li:nth-child(2) {
+        padding-left: 0px;
+    }
+
+    .about_cnt_bl ul li:nth-child(4) {
+        padding-left: 0px;
     }
 
     .ecosystem_section ul {
@@ -988,8 +1043,22 @@ section.explore_categories.socialmediabg .top_heading_cnt {
         padding: 150px 0px 30px;
     }
 
+    .hero_banner_ .btn_work p {
+        padding: 8px 32px;
+        margin: 0px;
+        font-size: 14px;
+    }
+
+    footer .d-flex.align-items-center {
+        gap: 20px;
+    }
+
     .about_cnt_bl ul li img {
         max-width: 36px;
+    }
+
+    header .logo img.eaglelogo {
+        width: 22px;
     }
 
     .about_cnt_bl ul li:nth-child(2) {
@@ -1011,16 +1080,22 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     }
 
     section.explore_categories.socialmediabg .d-flex p {
-    width: 90%;
-}
-.socialmediabg .cnt_comedy { padding-top: 30px; }
-.logo_f {
-    max-width: 200px;
-}
-footer .d-flex p {
-    width: 100%;
-    font-size: 15px;
-    text-align: center; }
+        width: 90%;
+    }
+
+    .socialmediabg .cnt_comedy {
+        padding-top: 30px;
+    }
+
+    .logo_f {
+        max-width: 200px;
+    }
+
+    footer .d-flex p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
 
     .about_cnt_bl ul li h3 {
         font-size: 16px;
@@ -1036,19 +1111,20 @@ footer .d-flex p {
         font-size: 20px;
     }
 
-        a.learnmore {
+    a.learnmore {
         font-size: 15px;
     }
 
-        .features_bl_S {
+    .features_bl_S {
         padding: 80px 30px 30px 40px;
         text-align: center;
     }
 
     .coming_outer {
-    padding: 30px 0px; }
+        padding: 30px 0px;
+    }
 
-        .comingsoon_vector {
+    .comingsoon_vector {
         max-width: 230px;
     }
 
@@ -1236,7 +1312,7 @@ footer .d-flex p {
 
     .hero_banner_ .row {
         flex-direction: column;
-        gap:20px;
+        gap: 20px;
     }
 
     .hero_banner_ .row .col-sm-6 {
@@ -1258,19 +1334,27 @@ footer .d-flex p {
     footer {
         padding: 30px 0px;
     }
-        .ecosystem_section ul li a {
+
+    .ecosystem_section ul li a {
         font-size: 14px;
         padding: 10px;
     }
 
-   .socialmediabg .cnt_comedy h4 { font-size: 18px; }
-   section.aboutus_section .row .col-sm-6{ width: 100%; }
+    .socialmediabg .cnt_comedy h4 {
+        font-size: 18px;
+    }
 
-       section.aboutus_section .features_section .row {
+    section.aboutus_section .row .col-sm-6 {
+        width: 100%;
+    }
+
+    section.aboutus_section .features_section .row {
         padding-top: 40px;
     }
 
-    .hero_banner_ .row .col-sm-7{ width: 100%;}
+    .hero_banner_ .row .col-sm-7 {
+        width: 100%;
+    }
 
 
 
