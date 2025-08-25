@@ -640,6 +640,7 @@ footer .d-flex.align-items-center {
 }
 
 .logo_f {
+    text-align: start;
     max-width: 474px;
 }
 
