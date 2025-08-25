@@ -59,7 +59,7 @@ header .logo {
 header .logo a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
     flex-direction: row-reverse;
     justify-content: left;
 }
@@ -789,14 +789,22 @@ section.explore_categories.socialmediabg .top_heading_cnt {
         min-height: 700px;
     }
 
+    .navigation nav ul li a {
+        font-size: 14px;
+    }
+
+    .navigation nav ul {
+        gap: 16px;
+    }
 
 }
 
 @media screen and (max-width:1366px) {
 
-    .navigation nav ul {
-        gap: 30px;
+    header .logo {
+        max-width: 204px;
     }
+
 
     .features_bl_S h3 {
         font-size: 30px;
@@ -874,13 +882,16 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     }
 
     .navigation nav ul {
-        gap: 15px;
+        gap: 6px;
     }
 
     .navigation nav ul li a {
-        font-size: 14px;
+        font-size: 12px;
     }
 
+    header .logo {
+        max-width: 160px;
+    }
 
     .platform_s_cnt h5 {
         font-size: 80px;
@@ -1066,6 +1077,10 @@ section.explore_categories.socialmediabg .top_heading_cnt {
         padding: 150px 0px 30px;
     }
 
+    header .logo a {
+        gap: 10px;
+    }
+
     .hero_banner_ .btn_work p {
         padding: 8px 32px;
         margin: 0px;
@@ -1116,7 +1131,7 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     }
 
     .address_footer.lastchildfooter h5 {
-        left: 0px;
+        left: 0px; width: 100%;
     }
 
     .hand_shake_cntr {
@@ -1125,6 +1140,7 @@ section.explore_categories.socialmediabg .top_heading_cnt {
 
     .address_footer.lastchildfooter {
         text-align: center;
+        width: 100%;
     }
 
     .footerlogo3 {
