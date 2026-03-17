@@ -945,6 +945,9 @@ section.explore_categories.socialmediabg .top_heading_cnt {
         font-size: 20px;
     }
 
+    .features_bl_S {
+        min-height: 300px; }
+
 
 }
 
@@ -1056,6 +1059,17 @@ section.explore_categories.socialmediabg .top_heading_cnt {
     .socialmediabg .autoplay_two {
         margin-top: 0px;
     }
+
+    .footermenu.d-flex.gap-2 a {
+        font-size: 13px;
+    }
+
+    .privancy_cntblock p {
+        font-size: 14px;
+    }
+
+    footer .d-flex p {
+        font-size: 13px; }
 
     .features_bl_S {
         padding: 120px 50px 80px 50px;
