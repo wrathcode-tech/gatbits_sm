@@ -86,6 +86,9 @@ header .row {
     width: 100%;
 }
 
+.navigation nav ul li a:focus{ color: #fff; }
+.navigation nav ul li a:focus-visible { outline: none; box-shadow: none; }
+
 .header_right {
     display: flex;
     justify-content: flex-end;
